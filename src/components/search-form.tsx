@@ -35,7 +35,7 @@ export default function SearchForm() {
         name="q"
         placeholder="Buscar produtos..."
         className="flex-1 bg-transparent text-sm outline-none placeholder:text-zinc-500"
-        value={query ?? ''}
+        defaultValue={query ?? ''}
       />
     </form>
   )
